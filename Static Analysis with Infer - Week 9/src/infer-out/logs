@@ -1,0 +1,171 @@
+[3605][      debug] Loading models took 165ms
+[3605][  user warn] Cannot setup the socket to communicate with the database daemon. Performance will be impacted. Do you have enough rights to create a Unix socket in directory '/eist23l08p02-exercise/infer-out'?
+[3605][environment] CWD = /eist23l08p02-exercise
+[3605][environment] No .inferconfig file found
+[3605][environment] Project root = /eist23l08p02-exercise
+[3605][environment] INFER_ARGS =   @/tmp/args.tmp.0e7164 --progress-bar-style multiline
+[3605][environment] command line arguments:   infer run -- javac de/tum/in/ase/eist/Main.java
+[3605][environment]                           de/tum/in/ase/eist/Room.java
+[3605][environment]                           de/tum/in/ase/eist/SeminarRoom.java
+[3605][environment]                           de/tum/in/ase/eist/Student.java
+[3605][environment] Available memory at startup: 6756 MB
+[3605][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, C#/.Net, Java)
+[3605][environment] Scheduler: file
+[3605][environment] Cores used: 2
+[3605][environment] Infer version v1.1.0-b39d229b
+[3605][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[3605][environment] 
+[3605][   progress] Capturing in javac mode...
+[3605][      debug] Current working directory: '/eist23l08p02-exercise'
+[3605][      debug] Trying to execute: javac '-J-Duser.language=en' '@/eist23l08p02-exercise/infer-out/tmp/javac_args.tmp.f3bc58' 2>'/eist23l08p02-exercise/infer-out/tmp/javac.tmp.07b143.out'
+[3605][      debug] *** Success. Logs:
+[3605][      debug] Translating 4 source files (5 classes)
+[3605][      debug] done capturing all files
+[3605][      debug] GC stats for capture:
+[3605][      debug]   minor_words: 2.36113e+06
+[3605][      debug]   promoted_words: 255504
+[3605][      debug]   major_words: 273538
+[3605][      debug]   minor_collections: 2
+[3605][      debug]   major_collections: 0
+[3605][      debug]   compactions: 0
+[3605][      debug]   top_heap_words: 1331712
+[3605][      debug]   
+[3605][environment] Parallel jobs: 2
+[3605][   progress] Found 4 source files to analyze in /eist23l08p02-exercise/infer-out
+[3627][   progress] de/tum/in/ase/eist/SeminarRoom.java starting
+[3626][   progress] de/tum/in/ase/eist/Room.java starting
+[3626][   progress] de/tum/in/ase/eist/Room.java DONE
+[3626][   progress] de/tum/in/ase/eist/Student.java starting
+[3626][   progress] de/tum/in/ase/eist/Student.java DONE
+[3626][   progress] de/tum/in/ase/eist/Main.java starting
+[3626][   progress] de/tum/in/ase/eist/Main.java DONE
+[3627][   progress] de/tum/in/ase/eist/SeminarRoom.java DONE
+[3605][      debug] Backend stats:
+[3605][      debug]   summary_file_try_load= 160
+[3605][      debug]   summary_read_from_disk= 7
+[3605][      debug]   summary_cache_hits= 176 (52%)
+[3605][      debug]   summary_cache_misses= 160
+[3605][      debug]   ondemand_procs_analyzed= 34
+[3605][      debug]   proc_locker_lock_time_user= 0.00000000
+[3605][      debug]   proc_locker_lock_time_sys= 0.00000000
+[3605][      debug]   proc_locker_lock_time_wall= 0.00000000
+[3605][      debug]   proc_locker_unlock_time_user= 0.00000000
+[3605][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[3605][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[3605][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[3605][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[3605][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[3605][      debug]   restart_scheduler_total_time_user= 0.00000000
+[3605][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[3605][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[3605][      debug]   pulse_aliasing_contradictions= 0
+[3605][      debug]   pulse_args_length_contradictions= 0
+[3605][      debug]   pulse_captured_vars_length_contradictions= 0
+[3605][      debug]   pulse_summaries_count= []
+[3605][      debug]   topl_reachable_calls= 0
+[3605][      debug]   timeouts= 0
+[3605][      debug]   timings= timings for biabduction:
+[3605][      debug]     p10: 0.000156s p20: 0.000274s p30: 0.000372s p40: 0.000403s
+[3605][      debug]     p50: 0.000563s p60: 0.000817s p70: 0.002742s p80: 0.005349s
+[3605][      debug]     p90: 0.009660s p95: 0.013192s p96: 0.014014s p97: 0.014950s
+[3605][      debug]     p98: 0.015886s p99: 0.016381s p99.9: 0.016381s p99.99: 0.016381s 
+[3605][      debug]   timings for fragment-retains-view:
+[3605][      debug]     p10: 0.000000s p20: 0.000000s p30: 0.000000s p40: 0.000001s
+[3605][      debug]     p50: 0.000001s p60: 0.000001s p70: 0.000001s p80: 0.000001s
+[3605][      debug]     p90: 0.000002s p95: 0.000002s p96: 0.000002s p97: 0.000002s
+[3605][      debug]     p98: 0.000002s p99: 0.000002s p99.9: 0.000002s p99.99: 0.000002s 
+[3605][      debug]   timings for inefficient-keyset-iterator:
+[3605][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000002s p40: 0.000003s
+[3605][      debug]     p50: 0.000004s p60: 0.000004s p70: 0.000005s p80: 0.000006s
+[3605][      debug]     p90: 0.000012s p95: 0.000020s p96: 0.000024s p97: 0.000032s
+[3605][      debug]     p98: 0.000040s p99: 0.000044s p99.9: 0.000044s p99.99: 0.000044s 
+[3605][      debug]   timings for racerd:
+[3605][      debug]     p10: 0.000000s p20: 0.000001s p30: 0.000002s p40: 0.000010s
+[3605][      debug]     p50: 0.000020s p60: 0.000031s p70: 0.000043s p80: 0.000058s
+[3605][      debug]     p90: 0.000129s p95: 0.000288s p96: 0.000306s p97: 0.000322s
+[3605][      debug]     p98: 0.000338s p99: 0.000346s p99.9: 0.000346s p99.99: 0.000346s 
+[3605][      debug]   timings for starvation:
+[3605][      debug]     p10: 0.000000s p20: 0.000007s p30: 0.000019s p40: 0.000024s
+[3605][      debug]     p50: 0.000031s p60: 0.000041s p70: 0.000061s p80: 0.000084s
+[3605][      debug]     p90: 0.000162s p95: 0.000201s p96: 0.000240s p97: 0.000336s
+[3605][      debug]     p98: 0.000431s p99: 0.000482s p99.9: 0.000482s p99.99: 0.000482s 
+[3605][      debug]   timings for preanalysis:
+[3605][      debug]     p10: 0.000034s p20: 0.000174s p30: 0.000238s p40: 0.000268s
+[3605][      debug]     p50: 0.000302s p60: 0.000311s p70: 0.000380s p80: 0.000530s
+[3605][      debug]     p90: 0.000708s p95: 0.000771s p96: 0.000788s p97: 0.000800s
+[3605][      debug]     p98: 0.000813s p99: 0.000819s p99.9: 0.000819s p99.99: 0.000819s 
+[3605][      debug]   
+[3605][      debug]   longest_proc_duration_heap= [
+[3605][      debug]   142047us: Student SeminarRoom.leave()
+[3605][      debug]   27543us: SeminarRoom.<init>(int)
+[3605][      debug]   21908us: void Main$Lambda$_4_28.run()
+[3605][      debug]   19287us: void Main.access_de.tum.in.ase.eist.Main$Lambda$_4_28(SeminarRoom)
+[3605][      debug]   17109us: void SeminarRoom.enter(Student)
+[3605][      debug]   16524us: void Main.lambda$main$1(SeminarRoom)
+[3605][      debug]   15842us: FileOutputStream Student.report()
+[3605][      debug]   11572us: Student$StudentID.<init>()
+[3605][      debug]   10822us: Student SeminarRoom.leave()
+[3605][      debug]   10810us: void Main$Lambda$_4_14.run()
+[3605][      debug]   ]
+[3605][      debug]   
+[3605][      debug] GC stats for backend_stats.gc_stats_add.:
+[3605][      debug]   minor_words: 6.00975e+07
+[3605][      debug]   promoted_words: 327975
+[3605][      debug]   major_words: 447972
+[3605][      debug]   minor_collections: 61
+[3605][      debug]   major_collections: 7
+[3605][      debug]   compactions: 0
+[3605][      debug]   top_heap_words: 3063808
+[3605][      debug]   
+[3605][      debug] GC stats for backend_stats.gc_stats_max.:
+[3605][      debug]   minor_words: 4.04653e+07
+[3605][      debug]   promoted_words: 216008
+[3605][      debug]   major_words: 324261
+[3605][      debug]   minor_collections: 41
+[3605][      debug]   major_collections: 4
+[3605][      debug]   compactions: 0
+[3605][      debug]   top_heap_words: 1531904
+[3605][      debug]   
+[3605][      debug] Average over 2 processes
+[3605][      debug] GC stats for backend_stats.gc_stats_average.:
+[3605][      debug]   minor_words: 3.00488e+07
+[3605][      debug]   promoted_words: 163988
+[3605][      debug]   major_words: 223986
+[3605][      debug]   minor_collections: 30
+[3605][      debug]   major_collections: 3
+[3605][      debug]   compactions: 0
+[3605][      debug]   top_heap_words: 1531904
+[3605][      debug]   
+[3605][      debug] Analysis phase finished in 264ms
+[3605][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01701100
+[3605][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01450700
+[3605][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.26318837
+[3605][      debug] GC stats for analysis_scheduler:
+[3605][      debug]   minor_words: 353773
+[3605][      debug]   promoted_words: 28106
+[3605][      debug]   major_words: 37667
+[3605][      debug]   minor_collections: 1
+[3605][      debug]   major_collections: 2
+[3605][      debug]   compactions: 1
+[3605][      debug]   top_heap_words: 1531904
+[3605][      debug]   
+[3605][      debug] GC stats for report:
+[3605][      debug]   minor_words: 9105
+[3605][      debug]   promoted_words: 0
+[3605][      debug]   major_words: 0
+[3605][      debug]   minor_collections: 0
+[3605][      debug]   major_collections: 0
+[3605][      debug]   compactions: 0
+[3605][      debug]   top_heap_words: 1531904
+[3605][      debug]   
+[3605][      debug] GC stats for main_process_full:
+[3605][      debug]   minor_words: 5.8017e+06
+[3605][      debug]   promoted_words: 730577
+[3605][      debug]   major_words: 1.35682e+06
+[3605][      debug]   minor_collections: 11
+[3605][      debug]   major_collections: 3
+[3605][      debug]   compactions: 1
+[3605][      debug]   top_heap_words: 1531904
+[3605][      debug]   
+[3605][     result] 
+  No issues found  
